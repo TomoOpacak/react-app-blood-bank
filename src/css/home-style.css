@@ -1,0 +1,81 @@
+.home-container {
+  max-width: 1000px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.home-header {
+  width: 100%;
+  background-image: url(../files/images/bloodbank_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+.why-donate-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    width: 80%;
+    line-height: 1.8;
+  }
+}
+.donation-stats-container {
+  width: 100%;
+  height: 250px;
+  background-color: #f9f9f9;
+}
+
+.donation-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats {
+  color: #c31320;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.learn-more-button {
+  align-self: start;
+  position: relative;
+  left: 100px;
+  bottom: -50px;
+}
+
+.how-to-donate-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: left;
+  }
+}
